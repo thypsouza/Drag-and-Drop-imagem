@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(77, 74, 74);
+}
+
+.drop-image{
+    width: 500px;
+    height: 450px;
+    border: dotted 2px #ccc;
+}
+
+.drop-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-drop{
+    color: #fffaaa;
+}
+
+.drop-image.hover{
+    background-color: greenyellow;
+}
